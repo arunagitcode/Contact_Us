@@ -1,0 +1,27 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+
+  .logo {
+    margin: 4px 0 2px 4px;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+    column-gap: 24px;
+    cursor: pointer;
+  }
+  li:hover {
+    color: rgb(33, 180, 228);
+  }
+  button {
+    background-color: rgb(108, 205, 237);
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin: -10px 10px 0 0;
+    cursor: pointer;
+  }
+}
